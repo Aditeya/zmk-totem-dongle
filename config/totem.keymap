@@ -55,17 +55,17 @@
         Base {
             display-name = "Base";
             bindings = <
-              &kp Q       &kp W       &kp E          &kp R         &kp T        &kp Y    &kp U        &kp I        &kp O       &kp P
-              &hm LGUI A  &hm LALT S  &hm LCTRL D    &hm LSHIFT F  &kp G        &kp H    &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
-&lt 3 ESCAPE  &kp Z       &kp X       &kp C          &kp V         &kp B        &kp N    &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp APOSTROPHE
-                                      &mt LCTRL DEL  &lt 1 TAB     &kp SPACE    &kp RET  &lt 2 BSPC   &kp MINUS
+              &kp Q       &kp W       &kp E          &kp R         &kp T        &kp Y      &kp U        &kp I        &kp O       &kp P
+              &hm LGUI A  &hm LALT S  &hm LCTRL D    &hm LSHIFT F  &kp G        &kp H      &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
+&lt 3 ESCAPE  &kp Z       &kp X       &kp C          &kp V         &kp B        &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp APOSTROPHE
+                                      &mt LCTRL DEL  &lt 1 TAB     &kp ENTER    &kp SPACE  &lt 2 BSPC   &kp MINUS
             >;
         };
 
         Nav {
             display-name = "Nav";
             bindings = <
-              &kp TILDE       &trans     &kp UP_ARROW  &trans     &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+              &kp GRAVE       &trans     &kp UP_ARROW  &trans     &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
               &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
 &kp LEFT_ALT  &kp LEFT_WIN    &kp MINUS  &trans        &kp PLUS   &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
                                          &trans        &trans     &trans      &trans    &trans        &kp DOT
